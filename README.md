@@ -1,27 +1,32 @@
-# 🛡️ ALPOS – Vulnerability Management System
+# 💰 Cash Flow Monitoring System
 
-**ALPOS** is a **Docker-based vulnerability management system** that improves scanning efficiency by creating multiple containers to run parallel scans. The system features **vulnerability detection**, **severity analysis**, **automated patch recommendations**, **scheduled scans**, **reporting**, **email notifications**, and **role-based user management**.
-
----
-
-## ⚙️ Key Features
-
-- ✅ **Backend RESTful API** built with **Spring Boot**, **Spring Security**, **Spring Data**, and **JWT** for secure authentication.
-- 🧭 **Integrated Nmap** for host scanning to detect vulnerabilities and assess their severity.
-- 🩹 **Automated patch recommendations** based on identified vulnerabilities.
-- 🕒 **Scheduled scans** and **on-demand scanning** for continuous security assessments.
-- 📤 **Export scan reports** in **PDF/CSV** formats and receive **email notifications** upon scan completion.
-- 👥 **User management system** with **role-based access control** for secure and tailored permissions.
-- 📊 **Dynamic frontend dashboard** built with the **Svelte Framework** for real-time monitoring and scan control.
+A complete mobile and backend solution to help companies **track and manage cash flow at construction sites**, with strong focus on **security**, **data validation**, and **user role separation**.
 
 ---
 
-## 🐳 Dockerized Architecture
+## 📱 Android Application
 
-ALPOS leverages **Docker containers** to:
-- Isolate scanning environments
-- Run parallel scans across multiple targets
-- Scale efficiently for larger infrastructures
+A robust multi-user Android application built to streamline financial operations on-site.
+
+### ✅ Features
+
+- 🧩 **Fragment-based architecture** using **Java** and **XML** for modular design.
+- 👥 **Role-based access control** with **5 distinct user roles**, each having dedicated views and permissions.
+- 🔒 Strong **form validation** to prevent incorrect or malicious input.
+- 🔗 Integration with the backend via **Retrofit** for secure and efficient data exchange.
+
+---
+
+## 🔧 Backend – RESTful API (Spring Boot)
+
+A secure backend built with **Spring Boot**, designed for financial data handling and user management.
+
+### ✅ Features
+
+- 🛡️ **JWT-based authentication** with encrypted passwords for secure user sessions.
+- 👥 **User space isolation** based on role-based access logic.
+- 🔐 **Input validation and encryption** to ensure secure and trusted data operations.
+- 📡 Seamless API integration with the Android app for real-time operations.
 
 ---
 
