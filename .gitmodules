@@ -1,0 +1,6 @@
+[submodule "kahrakib_API"]
+	path = kahrakib_API
+	url = https://github.com/abdelhak-belah/kahrakib_API.git
+[submodule "kahrakib_android"]
+	path = kahrakib_android
+	url = https://github.com/abdelhak-belah/kahrakib_android.git
